@@ -1,6 +1,6 @@
 # envoy-tls
 
-This repositry contains sample of service using envoy proxy with tls. The certificates are automatically generated every 15 minutes(the value can be changed in the cronjob file) and the envoy will restarted be using hot-restarter.py, once envoy is restarted it will use the newly generated certificates
+A sample of service using envoy proxy with tls. The certificates are automatically generated every 15 minutes(the value can be changed in the cronjob file) and the envoy will restarted be using hot-restarter.py, once envoy is restarted it will use the newly generated certificates
 
 ## Usage
     docker build . -t envoy-tls
